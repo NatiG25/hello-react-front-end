@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import Greeting from './components/Greeting';
-import './App.css';
+import Greeting from './Greeting';
+import '../App.css';
 
 function App() {
   return (
