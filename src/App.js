@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <>
       <header>
         <h1>Hello World!</h1>
         <Link to='greeting'>greeting</Link>
@@ -13,7 +13,7 @@ function App() {
           <Route path='/greeting' element={<Greeting />} />
         </Routes>
       </header>
-    </div>
+    </>
   );
 }
 
