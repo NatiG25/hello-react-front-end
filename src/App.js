@@ -8,9 +8,9 @@ function App() {
     <>
       <header>
         <h1>Hello World!</h1>
-        <Link to='greeting'>greeting</Link>
+        <Link to="greeting">greeting</Link>
         <Routes>
-          <Route path='/greeting' element={<Greeting />} />
+          <Route path="/greeting" element={<Greeting />} />
         </Routes>
       </header>
     </>
